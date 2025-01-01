@@ -1,3 +1,51 @@
 body{
     background-color: rgb(0, 195, 255);
+    /* Estilo general del cuerpo */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #4a90e2, #9013fe); /* Gradiente de color */
+    color: #ffffff; /* Color de texto blanco */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 800px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 10.5); /* Fondo semitransparente */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+
+/* Encabezado */
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra en el texto */
+}
+
+/* Párrafos */
+p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+/* Enlaces */
+a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffffff; /* Cambio de color al pasar el cursor */
+}
+    
 }
